@@ -108,7 +108,7 @@ def main():
             )
 
             # Print result
-            if args.format == "text":
+            if args.format == "text" or args.format == "srt" or args.format == "vtt":
                 print(result)
             else:
                 print(result.text)
